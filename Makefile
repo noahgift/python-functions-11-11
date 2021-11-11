@@ -6,6 +6,6 @@ test:
 	python -m pytest -vv --cov=mylib test_mathcode.py
 
 lint:
-	pylint --disable=R,C hello.py cli.py
+	pylint --disable=R,C mylib
 
 all: install lint test
